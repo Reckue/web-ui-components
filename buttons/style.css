@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.content {
+    padding: 20px;
+}
+
+/* button-default */
+.btn-default {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    color: #5588c3;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #5588c3;
+}
+
+/* button-primary */
+.btn-primary {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #5588c3;
+    border-radius: 3px;
+    border: 1px solid #5588c3;
+}
