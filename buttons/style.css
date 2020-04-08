@@ -18,7 +18,15 @@ html {
     cursor: pointer;
     background-color: #fff;
     border-radius: 3px;
-    border: 1px solid #5588c3;
+    border: 1px solid #5fa0e5;
+}
+.btn-default:hover {
+    border: 1px solid #61abf2;
+    color: #61abf2;
+}
+.btn-default:active {
+    border: 1px solid #61abf2;
+    box-shadow: inset 0 0 2px rgba(97, 171, 242, 0.8);
 }
 
 /* button-primary */
@@ -29,7 +37,36 @@ html {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-    background-color: #5588c3;
+    background-color: #5fa0e5;
     border-radius: 3px;
-    border: 1px solid #5588c3;
+    border: 1px solid #5fa0e5;
+}
+.btn-primary:hover {
+    background-color: #61abf2;
+    border: 1px solid #61abf2;
+}
+.btn-primary:active {
+    border: 1px solid #61a3ea;
+    box-shadow: inset 0 0 2px rgba(66, 118, 166, 0.8);
+}
+
+/* success-primary */
+.btn-success {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #61bb61;
+    border-radius: 3px;
+    border: 1px solid #61bb61;
+}
+.btn-success:hover {
+    background-color: #74e572;
+    border: 1px solid #74e572;
+}
+.btn-success:active {
+    border: 1px solid #74e572;
+    box-shadow: inset 0 0 2px rgba(65, 141, 65, 0.8);
 }
